@@ -3,17 +3,17 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Geoquest para Yunohost
+# GeoQuest para Yunohost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/geoquest)](https://ci-apps.yunohost.org/ci/apps/geoquest/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/geoquest)
 ![Estado En Mantención](https://apps.yunohost.org/badge/maintained/geoquest)
 
-[![Instalar Geoquest con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=geoquest)
+[![Instalar GeoQuest con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=geoquest)
 
 *[Leer este README en otros idiomas.](./ALL_README.md)*
 
-> *Este paquete le permite instalarGeoquest rapidamente y simplement en un servidor YunoHost.*  
+> *Este paquete le permite instalarGeoQuest rapidamente y simplement en un servidor YunoHost.*  
 > *Si no tiene YunoHost, visita [the guide](https://yunohost.org/install) para aprender como instalarla.*
 
 ## Descripción general
@@ -27,7 +27,7 @@ Geography game
 
 ## Capturas
 
-![Captura de Geoquest](./doc/screenshots/screenshot.png)
+![Captura de GeoQuest](./doc/screenshots/screenshot.png)
 
 ## Documentaciones y recursos
 
