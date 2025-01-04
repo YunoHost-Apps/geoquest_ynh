@@ -1,0 +1,63 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "geoquest"
+name = "Geoquest"
+description.en = "Geography game"
+description.fr = "Jeu de géographie"
+
+version = "1.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "GPL-3.0"
+demo = "https://geoquest.gg/"
+code = "https://github.com/woutdp/geoquest"
+fund = "https://buymeacoffee.com/woutdp"
+
+[integration]
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/geoquest"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    url = "https://github.com/woutdp/geoquest/archive/fdc8ede8c631e44d862a48a84352f1d7696731d4.tar.gz"
+    sha256 = "faaada49b7661a377f619a14c0dffe6c45dd8a5b33c2f84abc8e4082f34b2123"
+
+    # autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+    main.default = 4173
