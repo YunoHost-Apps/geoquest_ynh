@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 ## Overview
 
-This is a dummy description of this app features
+Geography game
 
 
 **Shipped version:** 1.0~ynh1
@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Screenshots
 
-![Screenshot of Geoquest](./doc/screenshots/example.jpg)
+![Screenshot of Geoquest](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 

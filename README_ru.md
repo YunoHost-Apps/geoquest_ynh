@@ -18,7 +18,7 @@
 
 ## Обзор
 
-This is a dummy description of this app features
+Geography game
 
 
 **Поставляемая версия:** 1.0~ynh1
@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Снимки экрана
 
-![Снимок экрана Geoquest](./doc/screenshots/example.jpg)
+![Снимок экрана Geoquest](./doc/screenshots/screenshot.png)
 
 ## Документация и ресурсы
 

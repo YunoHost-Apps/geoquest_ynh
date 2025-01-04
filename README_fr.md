@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
+Jeu de géographie
 
 
 **Version incluse :** 1.0~ynh1
@@ -27,7 +27,7 @@ Ceci est une fausse description des fonctionalités de l'app
 
 ## Captures d’écran
 
-![Capture d’écran de Geoquest](./doc/screenshots/example.jpg)
+![Capture d’écran de Geoquest](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 

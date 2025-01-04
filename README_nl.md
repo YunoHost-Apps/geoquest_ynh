@@ -18,7 +18,7 @@ Hij mag NIET handmatig aangepast worden.
 
 ## Overzicht
 
-This is a dummy description of this app features
+Geography game
 
 
 **Geleverde versie:** 1.0~ynh1
@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Schermafdrukken
 
-![Schermafdrukken van Geoquest](./doc/screenshots/example.jpg)
+![Schermafdrukken van Geoquest](./doc/screenshots/screenshot.png)
 
 ## Documentatie en bronnen
 

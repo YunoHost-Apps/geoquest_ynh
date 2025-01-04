@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 ## Aurreikuspena
 
-This is a dummy description of this app features
+Geography game
 
 
 **Paketatutako bertsioa:** 1.0~ynh1
@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Pantaila-argazkiak
 
-![Geoquest(r)en pantaila-argazkia](./doc/screenshots/example.jpg)
+![Geoquest(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
 
 ## Dokumentazioa eta baliabideak
 

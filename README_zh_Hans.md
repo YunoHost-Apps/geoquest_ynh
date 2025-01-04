@@ -18,7 +18,7 @@
 
 ## 概况
 
-This is a dummy description of this app features
+Geography game
 
 
 **分发版本：** 1.0~ynh1
@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## 截图
 
-![Geoquest 的截图](./doc/screenshots/example.jpg)
+![Geoquest 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 

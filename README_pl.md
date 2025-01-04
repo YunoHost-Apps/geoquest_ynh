@@ -18,7 +18,7 @@ Nie powinno być ono edytowane ręcznie.
 
 ## Przegląd
 
-This is a dummy description of this app features
+Geography game
 
 
 **Dostarczona wersja:** 1.0~ynh1
@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Zrzuty ekranu
 
-![Zrzut ekranu z Geoquest](./doc/screenshots/example.jpg)
+![Zrzut ekranu z Geoquest](./doc/screenshots/screenshot.png)
 
 ## Dokumentacja i zasoby
 
