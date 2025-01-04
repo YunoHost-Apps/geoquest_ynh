@@ -3,17 +3,17 @@
 请勿手动编辑。
 -->
 
-# YunoHost 上的 Geoquest
+# YunoHost 上的 GeoQuest
 
 [![集成程度](https://apps.yunohost.org/badge/integration/geoquest)](https://ci-apps.yunohost.org/ci/apps/geoquest/)
 ![工作状态](https://apps.yunohost.org/badge/state/geoquest)
 ![维护状态](https://apps.yunohost.org/badge/maintained/geoquest)
 
-[![使用 YunoHost 安装 Geoquest](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=geoquest)
+[![使用 YunoHost 安装 GeoQuest](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=geoquest)
 
 *[阅读此 README 的其它语言版本。](./ALL_README.md)*
 
-> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 Geoquest。*  
+> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 GeoQuest。*  
 > *如果您还没有 YunoHost，请参阅[指南](https://yunohost.org/install)了解如何安装它。*
 
 ## 概况
@@ -27,7 +27,7 @@ Geography game
 
 ## 截图
 
-![Geoquest 的截图](./doc/screenshots/screenshot.png)
+![GeoQuest 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 
