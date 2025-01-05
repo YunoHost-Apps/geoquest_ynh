@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "geoquest"
-name = "Geoquest"
+name = "GeoQuest"
 description.en = "Geography game"
 description.fr = "Jeu de géographie"
 

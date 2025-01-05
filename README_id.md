@@ -3,22 +3,22 @@ N.B.: README ini dibuat secara otomatis oleh <https://github.com/YunoHost/apps/t
 Ini TIDAK boleh diedit dengan tangan.
 -->
 
-# Geoquest untuk YunoHost
+# GeoQuest untuk YunoHost
 
 [![Tingkat integrasi](https://apps.yunohost.org/badge/integration/geoquest)](https://ci-apps.yunohost.org/ci/apps/geoquest/)
 ![Status kerja](https://apps.yunohost.org/badge/state/geoquest)
 ![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/geoquest)
 
-[![Pasang Geoquest dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=geoquest)
+[![Pasang GeoQuest dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=geoquest)
 
 *[Baca README ini dengan bahasa yang lain.](./ALL_README.md)*
 
-> *Paket ini memperbolehkan Anda untuk memasang Geoquest secara cepat dan mudah pada server YunoHost.*  
+> *Paket ini memperbolehkan Anda untuk memasang GeoQuest secara cepat dan mudah pada server YunoHost.*  
 > *Bila Anda tidak mempunyai YunoHost, silakan berkonsultasi dengan [panduan](https://yunohost.org/install) untuk mempelajari bagaimana untuk memasangnya.*
 
 ## Ringkasan
 
-This is a dummy description of this app features
+Geography game
 
 
 **Versi terkirim:** 1.0~ynh1
@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada Geoquest](./doc/screenshots/example.jpg)
+![Tangkapan Layar pada GeoQuest](./doc/screenshots/screenshot.png)
 
 ## Dokumentasi dan sumber daya
 

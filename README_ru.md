@@ -3,22 +3,22 @@
 Он НЕ ДОЛЖЕН редактироваться вручную.
 -->
 
-# Geoquest для YunoHost
+# GeoQuest для YunoHost
 
 [![Уровень интеграции](https://apps.yunohost.org/badge/integration/geoquest)](https://ci-apps.yunohost.org/ci/apps/geoquest/)
 ![Состояние работы](https://apps.yunohost.org/badge/state/geoquest)
 ![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/geoquest)
 
-[![Установите Geoquest с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=geoquest)
+[![Установите GeoQuest с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=geoquest)
 
 *[Прочтите этот README на других языках.](./ALL_README.md)*
 
-> *Этот пакет позволяет Вам установить Geoquest быстро и просто на YunoHost-сервер.*  
+> *Этот пакет позволяет Вам установить GeoQuest быстро и просто на YunoHost-сервер.*  
 > *Если у Вас нет YunoHost, пожалуйста, посмотрите [инструкцию](https://yunohost.org/install), чтобы узнать, как установить его.*
 
 ## Обзор
 
-This is a dummy description of this app features
+Geography game
 
 
 **Поставляемая версия:** 1.0~ynh1
@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Снимки экрана
 
-![Снимок экрана Geoquest](./doc/screenshots/example.jpg)
+![Снимок экрана GeoQuest](./doc/screenshots/screenshot.png)
 
 ## Документация и ресурсы
 
