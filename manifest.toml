@@ -46,11 +46,20 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-    [resources.sources.main]
-    url = "https://github.com/woutdp/geoquest/archive/fdc8ede8c631e44d862a48a84352f1d7696731d4.tar.gz"
-    sha256 = "faaada49b7661a377f619a14c0dffe6c45dd8a5b33c2f84abc8e4082f34b2123"
+        [resources.sources.main]
+        # This is not used as we are using git clone. It's only here for autoupdate.
+        url = "https://github.com/woutdp/geoquest/archive/ed107dec066e56081feff36a2adc222b53ad9a25.tar.gz"
+        sha256 = "e2ac2c09b40ed436d4c151606eb609db01ad0000ddfce0fc399ac1dbc7185a8d"
+        prefetch = false
+        autoupdate.strategy = "latest_github_commit"
 
-    # autoupdate.strategy = "latest_github_tag"
+        [resources.sources.ynh_build]
+        url = "https://github.com/Yunohost-Apps/geoquest_ynh/releases/download/v2025.12.11-3170cb7e/jsoncrack.com_v2025.12.11-3170cb7e_ynh.zip"
+        sha256 = "f524572210053964f73bedcd0b21caa95ea54866aa74a5b069b6392a40ec333c"
+        format = "zip"
+        extract = true
+        in_subdir = true
+
 
     [resources.system_user]
 
