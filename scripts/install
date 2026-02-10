@@ -1,21 +1,28 @@
 #!/bin/bash
 
-source _common.sh
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
 source /usr/share/yunohost/helpers
-
-#=================================================
-# INSTALL DEPENDENCIES
-#=================================================
-ynh_script_progression "Installing dependencies..."
-
-ynh_nodejs_install
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir" --source_id="ynh_build"
+
+# Prepare $newpath for string replacement (empty if $path is root or $path if subdir is defined)
+newpath=""
+if [[ $path != '/' ]]; then newpath=$path; fi
+
+# Replace path placeholder recursively in all files of the app folder
+match_regex="/?__YNH_DOMAIN____YNH_SUBDIR_PATH__"
+grep --extended-regexp --recursive --files-with-matches --ignore-case "$match_regex" $install_dir/* | xargs -d '\n' sed --regexp-extended --in-place "s@$match_regex@https://$domain$newpath@g"
+
+# Apply permissions
+chown -R "$app:www-data" "$install_dir"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -24,26 +31,16 @@ ynh_script_progression "Adding system configurations related to $app..."
 
 ynh_config_add_nginx
 
-ynh_config_add_systemd
+#ynh_config_add_systemd
 
-yunohost service add "$app" --description="A geography game" --log="/var/log/$app/$app.log"
-
-#=================================================
-# INSTALL GEOQUEST
-#=================================================
-ynh_script_progression "Installing the app..."
-
-pushd "$install_dir"
- 	ynh_hide_warnings ynh_exec_as_app npm install
- 	ynh_hide_warnings ynh_exec_as_app npm run build
-popd
+#yunohost service add "$app" --description="A geography game" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start"
+#ynh_systemctl --service="$app" --action="start"
 
 #=================================================
 # END OF SCRIPT
