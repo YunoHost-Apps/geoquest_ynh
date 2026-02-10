@@ -33,7 +33,8 @@ function ynh_optional_source_customizations {
     #=================================================
     # Optimize build for self-hosted server rather than for Cloudflare Pages used for official website.
     sed -i 's/adapter-cloudflare/adapter-static/' svelte.config.js
-    sed -i 's/adapter-cloudflare.*$/adapter-static: "*",/' package.json #use always latest version, hopefully new versions will not break the app... 
+    sed -i 's/adapter-cloudflare": ".*"/adapter-static: "*",/' package.json #use always latest version, hopefully new versions will not break the app... 
+    cat package.json
 
 	# Remove supporter related menu in the UI as this is related to official instance
     sed -i '/<button/{:Loop;N;/\n\s*<\/button>/!bLoop;/becomeASupporter/d}' src/lib/ui/menu/MainMenu.svelte
