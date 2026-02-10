@@ -54,8 +54,8 @@ ram.runtime = "50M"
         autoupdate.strategy = "latest_github_commit"
 
         [resources.sources.ynh_build]
-        url = "https://github.com/Yunohost-Apps/geoquest_ynh/releases/download/v2025.12.11-3170cb7e/jsoncrack.com_v2025.12.11-3170cb7e_ynh.zip"
-        sha256 = "f524572210053964f73bedcd0b21caa95ea54866aa74a5b069b6392a40ec333c"
+        url = "https://github.com/Yunohost-Apps/geoquest_ynh/releases/download/v1.0-ed107dec/geoquest_v1.0-ed107dec_ynh.zip"
+        sha256 = "1e3b60ab0ee1e98862fed36795a1e686da00f5e7b92e681edfc636e9eefcfd85"
         format = "zip"
         extract = true
         in_subdir = true
