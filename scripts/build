@@ -32,10 +32,11 @@ function ynh_optional_source_customizations {
     # SOURCE CUSTOMIZATION COMMANDS (OPTIONAL)
     #=================================================
     # Optimize build for self-hosted server rather than for Cloudflare Pages used for official website.
-    sed -i 's/adapter-cloudflare/adapter-static/g' svelte.config.js 
+    sed -i 's/adapter-cloudflare/adapter-static/' svelte.config.js 
 
     # Add subpath install support
-    sed -i "/sourcemap: false/a\        paths: {\n            base: '/__YNH_PATH__',\n            relative: false\n        }" svelte.config.js #add subpath support
+    sed -Ei 's/^(.*sourcemap.*)$/\1,/' svelte.config.js
+    sed -i "/sourcemap: false/a\        paths: {\n            base: '/__YNH_PATH__',\n            relative: false\n        }" svelte.config.js
     sed -i 's@geoquest\.gg@__YNH_DOMAIN___YNH_PATH__@g' src/app.html
     sed -i 's@"/"@"/__YNH_PATH__"@g' static/site.webmanifest
     sed -i 's@"/@"/__YNH_PATH__/@g' static/site.webmanifest
