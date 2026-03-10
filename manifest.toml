@@ -55,7 +55,7 @@ ram.runtime = "50M"
 
         [resources.sources.ynh_build]
         url = "https://github.com/Yunohost-Apps/geoquest_ynh/releases/download/v1.0-ed107dec/geoquest_v1.0-ed107dec_ynh.zip"
-        sha256 = "54c5d7a6524d971d8f842172144dc663254889e7def99a16929a67e8268c65c7"
+        sha256 = "c7dab625915a2bc89a119c74cb01c120392db1656a622637da6c73a9db0dd99a"
         format = "zip"
         extract = true
         in_subdir = true
