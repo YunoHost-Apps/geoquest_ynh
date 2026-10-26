@@ -1,5 +1,5 @@
 [Unit]
-Description=Geoquest
+Description=Geoquest: geography game
 After=network.target
 
 [Service]
